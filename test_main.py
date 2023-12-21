@@ -1,5 +1,5 @@
 import pytest
-from project import compare, validate, assign
+from main import compare, validate, assign
 
 def test_compare():
     d, s = compare("games", "games")
